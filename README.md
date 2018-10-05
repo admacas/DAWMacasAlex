@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can use this [link](https://github.com/admacas/DAWMacasAlex) to enter the repository.
+You can use this [link](https://admacas.github.io/DAWMacasAlex/) to access the page static repository.
 
 You can use the [editor on GitHub](https://github.com/admacas/DAWMacasAlex/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
