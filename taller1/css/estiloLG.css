@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+*{
+	box-sizing: border-box;
+}
+
+div[class*="caja"]{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2pt solid #606060;
+	border-radius: 10px;
+	margin: 15px auto;
+	width: 120px;
+	height: 120px;
+}
+p{
+	text-align: center;
+	font-family: 'Baloo',sans-serif;
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+ }
+
+div.contenedor div:nth-child(odd){
+	background-color: #f7fade;
+}
+div.contenedor div:nth-child(even){
+	background-color:#dfedd6;
+}
