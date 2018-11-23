@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Taller2-Buscador de tweets</title>
+	 <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+	<div class="container container-fluid">
+		<div class="row justify-content-center mt-5">
+			<div class="col-10 col-md-10 col-lg-6">
+				<form class="card card-sm">
+					<div class="card-body row no-gutters align-items-center">
+						<div class="col">
+							<input class="form-control form-control-lg" type="search" placeholder="Ingrese el texto a buscar" id="buscador">
+						</div>
+						<div class="col-auto m-2">
+							<button class="btn btn-primary  text-dark font-weight-bold" type="submit">Buscar</button>
+						</div>
+					</div>
+				</form><!--fin-formulario-->
+			</div><!--fin-columna-->
+		</div><!--fin-fila-->
+		<div class="row justify-content-center mt-5">
+			<div class="col-10 col-md-10 col-lg-6">
+				<div class="card card-sm">
+					<div class="card-body row no-gutters align-items-center" id="tweets">
+						<div class="h4 text-center font-weight-bold bg-info col buscar">&#60&#62</div>
+						<div class="row justify-content-center border-bottom m-2 border-info" >
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/myscript.js"></script>
+</body>
+</html>
