@@ -21,10 +21,10 @@ function agregartweet(autor,tweet,enlace,fecha){
 		html:fecha
 	});
 	var contenedorImagen=$("<div/>",{
-		"class":"col-12 col-md-3 img-fluid rounded",
+		"class":"col-12 col-md-3  img-fluid rounded",
 	})
 	var contenedor=$("<div/>",{
-		"class":"row justify-content-center border-bottom m-2 border-info container"
+		"class":"row justify-content-center border-bottom m-2 border-info container datos"
 	});
 	autoreE.appendTo(contenedor);
 	imagenE.appendTo(contenedorImagen);
@@ -59,6 +59,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		var buscado=$('input#buscador').val().toString();
 		$(".buscar").text(buscado);
+		$(".datos").remove();
 		cargartweets(buscado);
 	});
 });
